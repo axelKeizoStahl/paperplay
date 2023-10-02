@@ -1,7 +1,7 @@
 import time
 import cv2
 import mediapipe as mp
-from scamp import *
+from scamp import Session
 
 cap = cv2.VideoCapture(0)
 mpHands = mp.solutions.hands
